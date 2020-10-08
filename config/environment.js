@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'book-club',
     environment,
-    rootURL: '/',
+    rootURL: '/bookclub',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
