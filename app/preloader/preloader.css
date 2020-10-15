@@ -925,7 +925,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.book-preloader-container {
   min-height: 100vh;
   display: -webkit-box;
   display: flex;
@@ -934,14 +934,7 @@ body {
   -webkit-box-align: center;
           align-items: center;
   background: #275EFE;
-}
-body .dribbble {
+  width: 100%;
   position: fixed;
-  display: block;
-  right: 24px;
-  bottom: 24px;
-}
-body .dribbble img {
-  display: block;
-  width: 76px;
+  z-index: 9999;
 }
