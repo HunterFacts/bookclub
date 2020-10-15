@@ -1,0 +1,33 @@
+body {
+    .pusher {
+        min-height: calc(100vh - 80px);
+        padding-bottom: 116px;
+    }
+    .ui.footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 116px;
+    }
+    .ui.menu {
+        margin-bottom: 0;
+        height: 80px;
+    }
+    .logo {
+        border-radius: 50%;
+        transform: translate(-10px, 0);
+    }
+    .ui.text.container.nav-bar {
+        max-width: 1200px !important;
+    }
+    .books-welcome {
+        width: 1001px;
+        height: 500px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        background-image: url(img/booksWelcome.png);
+        transform: translate(-50%, -50%);
+
+    }
+}

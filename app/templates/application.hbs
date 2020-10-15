@@ -1,6 +1,52 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-Hello world
 
+
+<!-- Sidebar Menu -->
+<div class="ui borderless main menu" style="">
+    <div class="ui text container nav-bar">
+        <div class="header item">
+        <img class="logo" src="assets/img/logoBooks.jpg">
+        Книжный клуб
+        </div>
+        <a href="#" class="item">Книги</a>
+        <a href="#" class="item">Встречи</a>
+        <a href="#" class="item">Докладчики</a>
+        <a href="#" class="ui right floated dropdown item" tabindex="0">
+        {{#ui-dropdown class="selection" selected="Bob"}}
+                <div class="default text">Меню</div>
+                    <i class="dropdown icon"></i>
+                <div class="menu">
+            </div>
+        {{/ui-dropdown}}
+        </a>
+    </div>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
 {{outlet}}
+<div class="ui inverted vertical footer segment">
+    <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+                <h4 class="ui inverted header">About</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">О книжном клубе</a>
+                    <a href="#" class="item">Как стать докладчиком</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">Services</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Где мы покупаем книги</a>
+                    <a href="#" class="item">FAQ</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Книжный клуб это...</h4>
+                    <p>Это место, где люди встречаются, чтобы обсудить интересные прочитанные книги и поделиться новыми знаниями и идеями, которые они почерпнули из них.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
